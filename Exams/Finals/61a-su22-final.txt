@@ -1,0 +1,46 @@
+61a-su22-final
+
+Q1:
+a: 2
+b: 4
+c: GENERATOR
+d: 2 4 6 StopIteration
+
+Q2:
+a: Global 
+b: -4
+c:  -2
+d: 2
+e: 1
+f:  0
+g: True
+
+Q3: a:
+i: seen_before + [t.label]
+ii:  b.label in seen_before
+iii:  t.branches.remove(new_branches)
+iv: prune_below(b, seen_before)
+
+b:
+i: d==0
+ii: root
+iii: sprouter(i) 
+iv:  root.leaves
+v:  sprout_tree(root + new_branches,sprouter,d-1)
+
+Q4:
+a:
+i:  nil? lnk
+ii:  filter_funct(lnk.rest,map_func,filter_func)
+iii: filter_funct(lnk.first)
+iv: Link( map_func(lnk.first),new_rest)
+
+b:
+i: filter_func(lnk.first)
+ii: 
+iii:
+iv:
+v:
+
+c:
+
